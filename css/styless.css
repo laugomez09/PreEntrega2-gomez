@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*primer html*/
+
+body{
+    display: column;
+}
+.encabezado {
+    background-color: green;
+    padding: 10px;
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.cab{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 100px;
+}
+
+nav {
+    width: 1000px;
+    height: 100px;
+    flex-direction: row-reverse;
+    display: flex;
+    align-items: end;
+}
+
+.escudo {
+    width: 10%;
+    height: 100%;
+}
+
+.piedepagina {
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    width: 1000px;
+    height: 100px;
+    flex-direction: row-reverse;
+    display: flex;
+}
+
+.link {
+    display: flex;
+}
+
+.elementos {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.inicio {
+    display: flex;
+
+}
+
+input {
+    width: 200px;
+    height: 20px;
+}
+
+header img {
+    width: 50px;
+}
+
+main section article img {
+    width: 200px;
+}
+
+footer img {
+    width: 100px;
+}
+
+.youtube {
+    width: 50px;
+}
+
+.twitter {
+    width: 50px;
+}
+
+.twich {
+    width: 40px;
+}
+
+.tiktok {
+    width: 50px;
+}
+
+.instagram {
+    width: 50px;
+}
+
+.Onefootball {
+    width: 70px;
+}
+
+/*segundo html*/
+
+.youtube2 {
+    width: 50px;
+}
+
+.twitter2 {
+    width: 50px;
+}
+
+.twich2 {
+    width: 40px;
+}
+
+.tiktok2 {
+    width: 50px;
+}
+
+.instagram2 {
+    width: 50px;
+}
+
+.Onefootball2 {
+    width: 70px;
+}
+
+.copas {
+    width: 100px;
+}
+
+/*tercer html*/
+
+.maps {
+    width: 350px;
+    height: 350px;
+}
+
+.youtube3 {
+    width: 50px;
+}
+
+.twitter3 {
+    width: 50px;
+}
+
+.twich3 {
+    width: 40px;
+}
+
+.tiktok3 {
+    width: 50px;
+}
+
+.instagram3 {
+    width: 50px;
+}
+
+.Onefootball3 {
+    width: 70px;
+}
+
+.copas3 {
+    width: 100px;
+}
+
+/*cuarto html*/
+
+.youtube4 {
+    width: 50px;
+}
+
+.twitter4 {
+    width: 50px;
+}
+
+.twich4 {
+    width: 40px;
+}
+
+.tiktok4 {
+    width: 50px;
+}
+
+.instagram4 {
+    width: 50px;
+}
+
+.Onefootball4 {
+    width: 70px;
+}
+
+.copas4 {
+    width: 100px;
+}
+
+/*quinto html*/
+.socio {
+    background-image: url("../IMG/el\ taladro.jpg");
+    width: 700px;
+    height: 500px;
+    text-align: center;
+    margin-left: 22%;
+}
+.textos{
+display: flex;
+flex-wrap: wrap;
+}
+
+.beneficios{
+    width: 500px;
+}
+.categorias{
+    height: 5000px;
+    width: 1000px;
+}
+
+
+.BanderadeBanfield {
+    width: 400px;
+}
+
+.youtube5 {
+    width: 50px;
+}
+
+.twitter5 {
+    width: 50px;
+}
+
+.twich5 {
+    width: 40px;
+}
+
+.tiktok5 {
+    width: 50px;
+}
+
+.instagram5 {
+    width: 50px;
+}
+
+.Onefootball5 {
+    width: 70px;
+}
+
+.copas5 {
+    width: 100px;
+}
+
+.titulo {
+    text-align: center;
+
+}
+
+#info {
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+
+}
+
+.colum{
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 0rem;
+}
+
+.texto {
+    display: flex;
+    width: 500px;
+    margin: 100px;
+}
+.lista{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.articulo1 {
+    width: 20rem;
+    height: 20rem;
+    text-align: center;
+    margin: auto;
+    box-sizing: content-box;
+}
+
+.articulo2 {
+    margin-right:25rem;
+    width: 20rem;
+    height: 20rem;
+    text-align: center;
+}
+
+.articulo3 {
+    margin-right:25rem;
+    width: 20rem;
+    height: 20rem;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+footer div {
+    display: inline-block;
+}
+
+
+.stock{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin: 25px;
+}
+
+.objetos{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin:25px ;
+}
+
+.items{
+    display: flex;
+    justify-content: space-between;
+
+}
