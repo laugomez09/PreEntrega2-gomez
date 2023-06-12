@@ -82,6 +82,7 @@ nav ul li {
 
 .título {
   text-align: center;
+  text-decoration: underline;
 }
 
 input {
@@ -133,6 +134,66 @@ input {
     justify-self: center;
   }
 }
+.menú4 {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .menú4 {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+  }
+}
+.menú3 {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.menú3 article h3 {
+  text-align: center;
+}
+
+.maps {
+  height: auto;
+  width: auto;
+}
+
+.texto {
+  height: auto;
+  width: auto;
+}
+
+.galeria {
+  height: 250px;
+  width: 200px;
+  align-content: center;
+}
+
+@media (min-width: 768px) {
+  .menú3 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+}
+.socio {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../img/el taladro.jpg");
+  width: 700px;
+  height: 500px;
+  text-align: center;
+  margin-left: 22%;
+}
+
 .menú2 {
   display: flex;
   flex-direction: column;

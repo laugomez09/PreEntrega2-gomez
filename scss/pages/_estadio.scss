@@ -1,0 +1,34 @@
+
+.menú3{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items:center ;
+    justify-content: center;
+    margin: auto;
+        & article h3{
+        text-align:center ;
+        }
+}
+.maps{
+    height: auto;
+    width: auto;
+}
+.texto{
+    height: auto;
+    width: auto;
+}
+
+.galeria{
+    height: 250px;
+    width: 200px;
+    align-content: center;
+}
+
+@media(min-width:768px){
+    .menú3{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+}
