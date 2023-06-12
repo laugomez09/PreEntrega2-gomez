@@ -1,0 +1,42 @@
+.menú2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.deportiva{
+    height: 200px;
+    width: 200px;
+}
+.accesorios{
+    height: 200px;
+    width: 200px;
+}
+.stock{
+    height: 200px;
+    width: 200px;
+}
+.objetos{
+    height: 200px;
+    width: 200px;
+}
+
+@media(min-width:768px){
+    .menú2{
+        display: grid;
+        grid-template-columns: 200px 200px;
+        grid-template-rows: 200px 200px;
+        padding: 100px;
+        gap: 100px;
+        align-content: center;
+        justify-content: center;
+    }
+}
+
+@media(min-width:1023px){
+    .menú2{
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+    }
+}

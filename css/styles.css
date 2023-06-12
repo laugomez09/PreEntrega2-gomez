@@ -1,0 +1,182 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.encabezado {
+  background-color: green;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  height: 100px;
+}
+
+nav {
+  width: 1000px;
+  height: 100px;
+  flex-direction: row-reverse;
+  display: flex;
+  align-items: end;
+  gap: 105rem;
+  margin-right: 1rem;
+}
+nav ul li {
+  display: inline-block;
+}
+
+.escudo {
+  width: 10%;
+  height: 100%;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.menú {
+  display: flex;
+}
+
+.piedepagina {
+  background-color: green;
+  display: flex;
+  justify-content: space-between;
+}
+
+.copas {
+  width: 10px;
+}
+
+.youtube {
+  width: 50px;
+}
+
+.twitter {
+  width: 50px;
+}
+
+.twich {
+  width: 40px;
+}
+
+.tiktok {
+  width: 50px;
+}
+
+.instagram {
+  width: 50px;
+}
+
+.Onefootball {
+  width: 70px;
+}
+
+.copas {
+  width: 100px;
+}
+
+.título {
+  text-align: center;
+}
+
+input {
+  width: 200px;
+  height: 20px;
+}
+
+.menú {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-content: center;
+  gap: 200x;
+  margin: 10%;
+  height: auto;
+}
+
+.articulo1 {
+  height: auto;
+  width: auto;
+  margin: auto;
+  align-content: center;
+  justify-content: center;
+}
+
+@media (min-width: 750px) {
+  .menú1 {
+    width: 65rem;
+    height: 65rem;
+    display: grid;
+    grid-template-columns: 30rem 30rem;
+    grid-template-rows: repeat(2, auto);
+  }
+  .articulo1 {
+    width: 10rem;
+    height: 10rem;
+    margin: 5rem;
+    grid-row: span 2;
+    align-self: center;
+  }
+  .articulo2 {
+    width: 10rem;
+    height: 10rem;
+    justify-self: center;
+  }
+  .articulo3 {
+    width: 10rem;
+    height: 10rem;
+    justify-self: center;
+  }
+}
+.menú2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.deportiva {
+  height: 200px;
+  width: 200px;
+}
+
+.accesorios {
+  height: 200px;
+  width: 200px;
+}
+
+.stock {
+  height: 200px;
+  width: 200px;
+}
+
+.objetos {
+  height: 200px;
+  width: 200px;
+}
+
+@media (min-width: 768px) {
+  .menú2 {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px;
+    padding: 100px;
+    gap: 100px;
+    align-content: center;
+    justify-content: center;
+  }
+}
+@media (min-width: 1023px) {
+  .menú2 {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
