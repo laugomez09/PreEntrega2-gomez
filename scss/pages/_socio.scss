@@ -1,9 +1,52 @@
+.menú5 {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: repeat(2, auto) 300px;
+    gap: 50px;
+}
+
 .socio {
-    display: flex;
-    flex-direction: column;
-    background-image: url("../img/el\ taladro.jpg");
-    width: 700px;
-    height: 500px;
+    background-image: url("../img/el-taladro(3).jpg");
+    width: 500px;
+    height: 400px;
     text-align: center;
-    margin-left: 22%;
+    grid-column: span 2;
+    justify-self: center;
+}
+
+.atencion{
+    text-align: center;
+    grid-column: span 2;
+    justify-self: center;
+
+}
+
+@media(min-width:768px){
+    .menú5{
+        justify-content: center;
+        text-align: center;
+        display:grid ;
+        grid-template-columns: repeat(3,300px);
+        grid-template-rows: auto 300px;
+        gap: 50px;
+}
+.socio {
+    background-image: url("../img/el-taladro(2).jpg");
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    grid-column: span 3;
+    justify-self: center;
+}
+.atencion{
+    grid-column: span 1;
+    text-align: center;
+    justify-self: center;
+}
+.beneficios{
+    grid-column: span 1;
+}
+.categorias{
+    grid-column: span 1;
+}
 }
