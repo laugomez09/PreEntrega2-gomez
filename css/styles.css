@@ -45,7 +45,7 @@ nav ul li {
 }
 
 main {
-  background-image: url(../img/fondo-definitivo.png);
+  background-image: url(../img/fondo-definitivo\ \(3\).png);
 }
 
 .menú {
@@ -108,6 +108,16 @@ input {
   height: 20px;
 }
 
+@media (min-width: 768px) {
+  main {
+    background-image: url(../img/fondo-definitivo\ \(3\).png);
+  }
+}
+@media (min-width: 1200px) {
+  main {
+    background-image: url(../img/fondo-definitivo.png);
+  }
+}
 .menú {
   display: flex;
   flex-direction: column;

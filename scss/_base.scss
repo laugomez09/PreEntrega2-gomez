@@ -3,9 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-$color-principal:green;
-$color-secundario:white;
-$color-titulos:yellow;
+
+$color-principal: green;
+$color-secundario: white;
+$color-titulos: yellow;
 
 
 .encabezado {
@@ -17,12 +18,13 @@ $color-titulos:yellow;
     width: 100%;
     justify-content: space-between;
     height: 100px;
-    background-image:linear-gradient($color-principal,$color-secundario, $color-principal) no-repeat center center fixed;
-    background-size:100%;
+    background-image: linear-gradient($color-principal, $color-secundario, $color-principal) no-repeat center center fixed;
+    background-size: 100%;
 }
-h1{
-   display: flex;
-   text-align: left;
+
+h1 {
+    display: flex;
+    text-align: left;
 }
 
 nav {
@@ -32,8 +34,9 @@ nav {
     align-items: end;
     gap: 105rem;
     margin-right: 1rem;
-    ul{
-        li{
+
+    ul {
+        li {
             display: inline-block;
         }
     }
@@ -50,9 +53,10 @@ nav {
 
 }
 
-main{
-    background-image: url(../img/fondo-definitivo.png);
+main {
+    background-image: url(../img/fondo-definitivo\ \(3\).png);
 }
+
 .menú {
     display: flex;
 }
@@ -61,12 +65,13 @@ main{
     background-color: $color-principal;
     display: flex;
     justify-content: space-between;
-    background-image:linear-gradient($color-principal,$color-secundario, $color-principal);
+    background-image: linear-gradient($color-principal, $color-secundario, $color-principal);
 }
 
-.copas{
+.copas {
     width: 10px;
 }
+
 .youtube {
     width: 50px;
     border-radius: 50%;
@@ -97,17 +102,30 @@ main{
     border-radius: 50%;
 }
 
-.copas{
+.copas {
     width: 100px;
 }
 
-.título{
+.título {
     text-align: center;
     text-decoration: underline;
-    color:$color-titulos;
+    color: $color-titulos;
 }
 
 input {
     width: 200px;
     height: 20px;
+}
+
+@media(min-width:768px){
+    main{
+        background-image: url(../img/fondo-definitivo\ \(3\).png);
+    }
+
+}
+
+@media(min-width:1200px){
+    main{
+        background-image:url(../img/fondo-definitivo.png) ;
+    }
 }
