@@ -14,10 +14,16 @@
   width: 100%;
   justify-content: space-between;
   height: 100px;
+  background-image: linear-gradient(green, white, green) no-repeat center center fixed;
+  background-size: 100%;
+}
+
+h1 {
+  display: flex;
+  text-align: left;
 }
 
 nav {
-  width: 1000px;
   height: 100px;
   flex-direction: row-reverse;
   display: flex;
@@ -38,6 +44,10 @@ nav ul li {
   text-align: center;
 }
 
+main {
+  background-image: url(../img/fondo-definitivo.png);
+}
+
 .menú {
   display: flex;
 }
@@ -46,6 +56,7 @@ nav ul li {
   background-color: green;
   display: flex;
   justify-content: space-between;
+  background-image: linear-gradient(green, white, green);
 }
 
 .copas {
@@ -54,26 +65,32 @@ nav ul li {
 
 .youtube {
   width: 50px;
+  border-radius: 50%;
 }
 
 .twitter {
   width: 50px;
+  border-radius: 45%;
 }
 
 .twich {
   width: 40px;
+  border-radius: 40%;
 }
 
 .tiktok {
   width: 50px;
+  border-radius: 45%;
 }
 
 .instagram {
   width: 50px;
+  border-radius: 50%;
 }
 
 .Onefootball {
   width: 70px;
+  border-radius: 50%;
 }
 
 .copas {
@@ -83,6 +100,7 @@ nav ul li {
 .título {
   text-align: center;
   text-decoration: underline;
+  color: yellow;
 }
 
 input {
@@ -106,6 +124,15 @@ input {
   margin: auto;
   align-content: center;
   justify-content: center;
+  color: white;
+}
+
+.articulo2 {
+  color: white;
+}
+
+.articulo3 {
+  color: white;
 }
 
 @media (min-width: 750px) {
@@ -140,6 +167,7 @@ input {
   gap: 100px;
   align-items: center;
   justify-content: center;
+  color: white;
 }
 
 @media (min-width: 768px) {
@@ -159,6 +187,10 @@ input {
 }
 .menú3 article h3 {
   text-align: center;
+}
+
+.texto {
+  color: white;
 }
 
 .maps {
@@ -188,7 +220,12 @@ input {
   display: grid;
   grid-template-columns: 150px 150px;
   grid-template-rows: repeat(2, auto) 300px;
-  gap: 50px;
+  gap: 50 px;
+}
+
+.titulo-socio {
+  text-align: center;
+  text-decoration: underline;
 }
 
 .socio {
@@ -200,10 +237,19 @@ input {
   justify-self: center;
 }
 
+.beneficios {
+  color: white;
+}
+
+.Categorias {
+  color: white;
+}
+
 .atencion {
   text-align: center;
   grid-column: span 2;
   justify-self: center;
+  color: white;
 }
 
 @media (min-width: 768px) {
@@ -240,6 +286,10 @@ input {
   flex-direction: column;
   align-items: center;
   gap: 30px;
+}
+
+h3 {
+  color: white;
 }
 
 .deportiva {
