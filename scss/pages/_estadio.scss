@@ -1,37 +1,35 @@
-
-.menú3{
+.menú3 {
     display: flex;
     flex-direction: column;
     gap: 50px;
-    align-items:center ;
+    align-items: center;
     justify-content: center;
     margin: auto;
-        & article h3{
-        text-align:center ;
-        }
+
+    & article h3 {
+        text-align: center;
+    }
 }
 
-.texto{
-    color: $color-secundario;
-}
 
-.maps{
-    height: auto;
-    width: auto;
-}
-.texto{
+.maps {
     height: auto;
     width: auto;
 }
 
-.galeria{
+.texto {
+    height: auto;
+    width: auto;
+}
+
+.galeria {
     height: 250px;
     width: 200px;
     align-content: center;
 }
 
-@media(min-width:768px){
-    .menú3{
+@media(min-width:768px) {
+    .menú3 {
         display: flex;
         flex-direction: row;
         gap: 20px;

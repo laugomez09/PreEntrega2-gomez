@@ -12,33 +12,41 @@ $color-titulos: yellow;
 .encabezado {
     background-color: $color-principal;
     padding: 10px;
-    display: flex;
-    flex-direction: row;
+    display:flex;
+    flex-direction:column;
     align-items: center;
     width: 100%;
     justify-content: space-between;
-    height: 100px;
-    background-image: linear-gradient($color-principal, $color-secundario, $color-principal) no-repeat center center fixed;
-    background-size: 100%;
+    height: 100%;
+    background-image: linear-gradient($color-principal, $color-secundario, $color-principal);
 }
 
 h1 {
     display: flex;
     text-align: left;
+    justify-content: center;
 }
 
 nav {
-    height: 100px;
+    height: auto;
     flex-direction: row-reverse;
     display: flex;
     align-items: end;
     gap: 105rem;
     margin-right: 1rem;
-
     ul {
         li {
             display: inline-block;
         }
+    }
+}
+
+a{
+    text-decoration: none;
+    color: $color-secundario;
+    font-weight: bolder;
+    &:hover{
+        color: black;
     }
 }
 
@@ -53,53 +61,45 @@ nav {
 
 }
 
-main {
-    background-image: url(../img/fondo-definitivo\ \(3\).png);
-}
 
 .menú {
     display: flex;
 }
 
 .piedepagina {
-    background-color: $color-principal;
     display: flex;
     justify-content: space-between;
     background-image: linear-gradient($color-principal, $color-secundario, $color-principal);
 }
 
-.copas {
-    width: 10px;
-}
-
 .youtube {
-    width: 50px;
-    border-radius: 50%;
+    width: 100px;
+    border-radius: 70%;
 }
 
 .twitter {
-    width: 50px;
-    border-radius: 45%;
-}
-
-.twich {
-    width: 40px;
+    width: 100px;
     border-radius: 40%;
 }
 
+.twich {
+    width: 100px;
+    border-radius: 35%;
+}
+
 .tiktok {
-    width: 50px;
+    width: 100px;
     border-radius: 45%;
 }
 
 .instagram {
-    width: 50px;
-    border-radius: 50%;
+    width: 100px;
+    border-radius: 40%;
 }
 
 .Onefootball {
-    width: 70px;
-    border-radius: 50%;
+    width: 100px;
+    border-radius: 80%;
 }
 
 .copas {
@@ -109,7 +109,6 @@ main {
 .título {
     text-align: center;
     text-decoration: underline;
-    color: $color-titulos;
 }
 
 input {
@@ -118,14 +117,16 @@ input {
 }
 
 @media(min-width:768px){
-    main{
-        background-image: url(../img/fondo-definitivo\ \(3\).png);
+    .encabezado{
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+        height: 100px;
     }
-
-}
-
-@media(min-width:1200px){
-    main{
-        background-image:url(../img/fondo-definitivo.png) ;
+    nav{
+        height: 100px;
     }
 }

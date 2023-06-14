@@ -1,4 +1,4 @@
-.menú{
+.menú {
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -7,20 +7,13 @@
     margin: 10%;
     height: auto;
 }
-.articulo1{
+
+.articulo1 {
     height: auto;
     width: auto;
     margin: auto;
     align-content: center;
     justify-content: center;
-    color: $color-secundario;
-}
-.articulo2{
-    color: $color-secundario;
-}
-
-.articulo3{
-    color: $color-secundario;
 }
 
 
@@ -53,4 +46,3 @@
         justify-self: center;
     }
 }
-

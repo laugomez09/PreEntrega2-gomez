@@ -1,15 +1,15 @@
-.menú4{
+.menú4 {
     display: flex;
     flex-direction: column;
     gap: 100px;
     align-items: center;
     justify-content: center;
-    color: $color-secundario;
 }
-@media(min-width:768px){
-    .menú4{
+
+@media(min-width:768px) {
+    .menú4 {
         display: flex;
         flex-direction: row;
         gap: 100px;
-}
+    }
 }
