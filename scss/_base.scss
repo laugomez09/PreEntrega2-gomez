@@ -9,11 +9,12 @@ $color-secundario: white;
 $color-titulos: yellow;
 
 
+
 .encabezado {
     background-color: $color-principal;
     padding: 10px;
-    display:flex;
-    flex-direction:column;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     width: 100%;
     justify-content: space-between;
@@ -27,6 +28,8 @@ h1 {
     justify-content: center;
 }
 
+
+
 nav {
     height: auto;
     flex-direction: row-reverse;
@@ -34,6 +37,7 @@ nav {
     align-items: end;
     gap: 105rem;
     margin-right: 1rem;
+
     ul {
         li {
             display: inline-block;
@@ -41,11 +45,12 @@ nav {
     }
 }
 
-a{
+a {
     text-decoration: none;
     color: $color-secundario;
     font-weight: bolder;
-    &:hover{
+
+    &:hover {
         color: black;
     }
 }
@@ -61,6 +66,14 @@ a{
 
 }
 
+.principal{
+    height: auto;
+    justify-content: center;
+}
+
+body {
+    background-color: rgba(128, 128, 128, 0.404);
+}
 
 .menú {
     display: flex;
@@ -73,37 +86,37 @@ a{
 }
 
 .youtube {
-    width: 100px;
-    border-radius: 70%;
+    width: 50px;
+    border-radius: 90%;
 }
 
 .twitter {
-    width: 100px;
-    border-radius: 40%;
+    width: 50px;
+    border-radius: 80%;
 }
 
 .twich {
-    width: 100px;
-    border-radius: 35%;
+    width: 50px;
+    border-radius: 80%;
 }
 
 .tiktok {
-    width: 100px;
-    border-radius: 45%;
+    width: 50px;
+    border-radius: 80%;
 }
 
 .instagram {
-    width: 100px;
-    border-radius: 40%;
+    width: 50px;
+    border-radius: 80%;
 }
 
 .Onefootball {
-    width: 100px;
+    width: 50px;
     border-radius: 80%;
 }
 
 .copas {
-    width: 100px;
+    width: 50px;
 }
 
 .título {
@@ -116,8 +129,8 @@ input {
     height: 20px;
 }
 
-@media(min-width:768px){
-    .encabezado{
+@media(min-width:768px) {
+    .encabezado {
         padding: 10px;
         display: flex;
         flex-direction: row;
@@ -126,7 +139,8 @@ input {
         justify-content: space-between;
         height: 100px;
     }
-    nav{
+
+    nav {
         height: 100px;
     }
 }

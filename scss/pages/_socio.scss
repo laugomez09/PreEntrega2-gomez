@@ -1,8 +1,14 @@
 .menú5 {
-    display: grid;
-    grid-template-columns: 150px 150px;
-    grid-template-rows: repeat(2, auto) 300px;
-    gap: 50 px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+button {
+    background-color: $color-principal;
 }
 
 .titulo-socio {
@@ -26,14 +32,31 @@
     justify-self: center;
 }
 
-@media(min-width:768px) {
+@media(min-width:670px) {
+    .menú5 {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 300px 300px;
+        grid-template-rows: repeat(2, auto) 300px;
+        gap: 30px;
+    }
+
+}
+
+@media(min-width:1018px) {
     .menú5 {
         justify-content: center;
         text-align: center;
         display: grid;
         grid-template-columns: repeat(3, 300px);
         grid-template-rows: auto 300px;
-        gap: 50px;
+        gap: 30px;
     }
 
     .socio {
@@ -42,7 +65,7 @@
         height: 400px;
         text-align: center;
         grid-column: span 3;
-        justify-self: center;
+        justify-content: center;
     }
 
     .atencion {

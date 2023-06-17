@@ -1,7 +1,8 @@
 .menú4 {
+    height: 450px;
     display: flex;
     flex-direction: column;
-    gap: 100px;
+    gap: 50px;
     align-items: center;
     justify-content: center;
 }
@@ -9,7 +10,9 @@
 @media(min-width:768px) {
     .menú4 {
         display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: row;
-        gap: 100px;
+        gap: 50px;
     }
 }

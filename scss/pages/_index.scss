@@ -1,48 +1,72 @@
 .menú {
     display: flex;
     flex-direction: column;
-    padding: 20px;
-    align-content: center;
+    padding: 100px;
     gap: 200x;
     margin: 10%;
     height: auto;
 }
 
+
+
 .articulo1 {
     height: auto;
     width: auto;
     margin: auto;
-    align-content: center;
-    justify-content: center;
+    text-align: center;
 }
 
+.articulo2 {
+    height: auto;
+    width: auto;
+    margin: auto;
+    text-align: center;
 
-@media(min-width:750px) {
+}
+
+.articulo3 {
+    height: auto;
+    width: auto;
+    margin: auto;
+    text-align: center;
+}
+
+@media(min-width:1010px) {
     .menú1 {
-        width: 65rem;
-        height: 65rem;
+        gap: 50px;
+        width: auto;
+        height: auto;
         display: grid;
         grid-template-columns: 30rem 30rem;
         grid-template-rows: repeat(2, auto);
+        justify-content: center;
+        align-content: center;
     }
 
     .articulo1 {
-        width: 10rem;
-        height: 10rem;
+        width: auto;
+        height: auto;
         margin: 5rem;
         grid-row: span 2;
         align-self: center;
     }
 
     .articulo2 {
-        width: 10rem;
-        height: 10rem;
+        width: auto;
+        height: auto;
         justify-self: center;
     }
 
     .articulo3 {
-        width: 10rem;
-        height: 10rem;
+        width: auto;
+        height: auto;
         justify-self: center;
+    }
+}
+
+@media(min-width:1200px) {
+    .menú1 {
+        display: flex;
+        flex-direction: row;
     }
 }

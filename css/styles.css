@@ -53,6 +53,15 @@ a:hover {
   text-align: center;
 }
 
+.principal {
+  height: auto;
+  justify-content: center;
+}
+
+body {
+  background-color: rgba(128, 128, 128, 0.404);
+}
+
 .menú {
   display: flex;
 }
@@ -64,37 +73,37 @@ a:hover {
 }
 
 .youtube {
-  width: 100px;
-  border-radius: 70%;
+  width: 50px;
+  border-radius: 90%;
 }
 
 .twitter {
-  width: 100px;
-  border-radius: 40%;
+  width: 50px;
+  border-radius: 80%;
 }
 
 .twich {
-  width: 100px;
-  border-radius: 35%;
+  width: 50px;
+  border-radius: 80%;
 }
 
 .tiktok {
-  width: 100px;
-  border-radius: 45%;
+  width: 50px;
+  border-radius: 80%;
 }
 
 .instagram {
-  width: 100px;
-  border-radius: 40%;
+  width: 50px;
+  border-radius: 80%;
 }
 
 .Onefootball {
-  width: 100px;
+  width: 50px;
   border-radius: 80%;
 }
 
 .copas {
-  width: 100px;
+  width: 50px;
 }
 
 .título {
@@ -124,8 +133,7 @@ input {
 .menú {
   display: flex;
   flex-direction: column;
-  padding: 20px;
-  align-content: center;
+  padding: 100px;
   gap: 200x;
   margin: 10%;
   height: auto;
@@ -135,40 +143,63 @@ input {
   height: auto;
   width: auto;
   margin: auto;
-  align-content: center;
-  justify-content: center;
+  text-align: center;
 }
 
-@media (min-width: 750px) {
+.articulo2 {
+  height: auto;
+  width: auto;
+  margin: auto;
+  text-align: center;
+}
+
+.articulo3 {
+  height: auto;
+  width: auto;
+  margin: auto;
+  text-align: center;
+}
+
+@media (min-width: 1010px) {
   .menú1 {
-    width: 65rem;
-    height: 65rem;
+    gap: 50px;
+    width: auto;
+    height: auto;
     display: grid;
     grid-template-columns: 30rem 30rem;
     grid-template-rows: repeat(2, auto);
+    justify-content: center;
+    align-content: center;
   }
   .articulo1 {
-    width: 10rem;
-    height: 10rem;
+    width: auto;
+    height: auto;
     margin: 5rem;
     grid-row: span 2;
     align-self: center;
   }
   .articulo2 {
-    width: 10rem;
-    height: 10rem;
+    width: auto;
+    height: auto;
     justify-self: center;
   }
   .articulo3 {
-    width: 10rem;
-    height: 10rem;
+    width: auto;
+    height: auto;
     justify-self: center;
   }
 }
+@media (min-width: 1200px) {
+  .menú1 {
+    display: flex;
+    flex-direction: row;
+  }
+}
 .menú4 {
+  height: 450px;
   display: flex;
   flex-direction: column;
-  gap: 100px;
+  gap: 50px;
   align-items: center;
   justify-content: center;
 }
@@ -176,8 +207,10 @@ input {
 @media (min-width: 768px) {
   .menú4 {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
-    gap: 100px;
+    gap: 50px;
   }
 }
 .menú3 {
@@ -210,16 +243,23 @@ input {
 
 @media (min-width: 768px) {
   .menú3 {
+    height: 450px;
     display: flex;
     flex-direction: row;
     gap: 20px;
   }
 }
 .menú5 {
-  display: grid;
-  grid-template-columns: 150px 150px;
-  grid-template-rows: repeat(2, auto) 300px;
-  gap: 50 px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+button {
+  background-color: green;
 }
 
 .titulo-socio {
@@ -242,14 +282,28 @@ input {
   justify-self: center;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 670px) {
+  .menú5 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: repeat(2, auto) 300px;
+    gap: 30px;
+  }
+}
+@media (min-width: 1018px) {
   .menú5 {
     justify-content: center;
     text-align: center;
     display: grid;
     grid-template-columns: repeat(3, 300px);
     grid-template-rows: auto 300px;
-    gap: 50px;
+    gap: 30px;
   }
   .socio {
     background-image: url("../img/el-taladro(2).jpg");
@@ -257,7 +311,7 @@ input {
     height: 400px;
     text-align: center;
     grid-column: span 3;
-    justify-self: center;
+    justify-content: center;
   }
   .atencion {
     grid-column: span 1;
