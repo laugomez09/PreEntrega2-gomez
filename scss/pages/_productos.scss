@@ -1,4 +1,4 @@
-.menú2 {
+.menu2 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,7 +27,7 @@
 }
 
 @media(min-width:768px) {
-    .menú2 {
+    .menu2 {
         display: grid;
         grid-template-columns: 200px 200px;
         grid-template-rows: 200px 200px;
@@ -39,7 +39,7 @@
 }
 
 @media(min-width:1023px) {
-    .menú2 {
+    .menu2 {
         display: flex;
         flex-direction: row;
         gap: 50px;
