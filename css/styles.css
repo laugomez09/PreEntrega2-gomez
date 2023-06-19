@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+ul li {
+  text-decoration: none;
+}
+
 .encabezado {
   background-color: green;
   padding: 10px;
@@ -195,6 +199,7 @@ input {
   }
 }
 .menu4 {
+  text-align: center;
   height: 450px;
   display: flex;
   flex-direction: column;
@@ -225,6 +230,7 @@ input {
 }
 
 .maps {
+  display: flex;
   height: auto;
   width: auto;
 }
@@ -267,7 +273,7 @@ button {
 }
 
 .socio {
-  background-image: url("../img/el-taladro(3).jpg");
+  background-image: url(../img/el-taladro\(3\).jpg);
   width: 500px;
   height: 400px;
   text-align: center;
@@ -305,7 +311,7 @@ button {
     gap: 30px;
   }
   .socio {
-    background-image: url("../img/el-taladro(2).jpg");
+    background-image: url("../img/el-taladro(3).jpg");
     width: 500px;
     height: 400px;
     text-align: center;
