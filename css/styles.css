@@ -24,6 +24,15 @@ h1 {
   display: flex;
   text-align: left;
   justify-content: center;
+  font-family: "Tilt Prism", sans-serif;
+}
+
+h2 {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+h3 {
+  font-family: "Bebas Neue", sans-serif;
 }
 
 nav {
@@ -299,6 +308,11 @@ button {
     grid-template-columns: 300px 300px;
     grid-template-rows: repeat(2, auto) 300px;
     gap: 30px;
+  }
+  .socio{
+    background-image: url(../img/el\ taladro\ \(1\).jpg);
+    width: 533px;
+    height: 400px;
   }
 }
 @media (min-width: 1018px) {
