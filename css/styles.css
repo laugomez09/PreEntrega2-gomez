@@ -43,6 +43,7 @@ nav {
   gap: 105rem;
   margin-right: 1rem;
 }
+
 nav ul li {
   display: inline-block;
 }
@@ -52,6 +53,7 @@ a {
   color: white;
   font-weight: bolder;
 }
+
 a:hover {
   color: black;
 }
@@ -138,10 +140,12 @@ input {
     justify-content: space-between;
     height: 100px;
   }
+
   nav {
     height: 100px;
   }
 }
+
 .menu {
   display: flex;
   flex-direction: column;
@@ -149,6 +153,10 @@ input {
   gap: 200x;
   margin: 10%;
   height: auto;
+}
+
+.img {
+  height: 150px;
 }
 
 .articulo1 {
@@ -183,6 +191,7 @@ input {
     justify-content: center;
     align-content: center;
   }
+
   .articulo1 {
     width: auto;
     height: auto;
@@ -190,23 +199,20 @@ input {
     grid-row: span 2;
     align-self: center;
   }
+
   .articulo2 {
     width: auto;
     height: auto;
     justify-self: center;
   }
+
   .articulo3 {
     width: auto;
     height: auto;
     justify-self: center;
   }
 }
-@media (min-width: 1200px) {
-  .menu1 {
-    display: flex;
-    flex-direction: row;
-  }
-}
+
 .menu4 {
   text-align: center;
   height: 450px;
@@ -226,6 +232,7 @@ input {
     gap: 50px;
   }
 }
+
 .menu3 {
   display: flex;
   flex-direction: column;
@@ -234,6 +241,7 @@ input {
   justify-content: center;
   margin: auto;
 }
+
 .menu3 article h3 {
   text-align: center;
 }
@@ -263,6 +271,7 @@ input {
     gap: 20px;
   }
 }
+
 .menu5 {
   text-align: center;
   justify-content: center;
@@ -309,12 +318,8 @@ button {
     grid-template-rows: repeat(2, auto) 300px;
     gap: 30px;
   }
-  .socio{
-    background-image: url(../img/el\ taladro\ \(1\).jpg);
-    width: 533px;
-    height: 400px;
-  }
 }
+
 @media (min-width: 1018px) {
   .menu5 {
     justify-content: center;
@@ -324,26 +329,31 @@ button {
     grid-template-rows: auto 300px;
     gap: 30px;
   }
+
   .socio {
-    background-image: url(../img/el\ taladro\ \(1\).jpg);
     width: 500px;
     height: 400px;
     text-align: center;
     grid-column: span 3;
     justify-content: center;
+    background-image: url(../img/el\ taladro\ \(1\).jpg);
   }
+
   .atencion {
     grid-column: span 1;
     text-align: center;
     justify-self: center;
   }
+
   .beneficios {
     grid-column: span 1;
   }
+
   .categorias {
     grid-column: span 1;
   }
 }
+
 .menu2 {
   display: flex;
   flex-direction: column;
@@ -351,23 +361,8 @@ button {
   gap: 30px;
 }
 
-.deportiva {
-  height: 200px;
-  width: 200px;
-}
-
-.accesorios {
-  height: 200px;
-  width: 200px;
-}
-
-.stock {
-  height: 200px;
-  width: 200px;
-}
-
-.objetos {
-  height: 200px;
+.fotos {
+  height: 300px;
   width: 200px;
 }
 
@@ -377,16 +372,17 @@ button {
     grid-template-columns: 200px 200px;
     grid-template-rows: 200px 200px;
     padding: 100px;
-    gap: 100px;
+    gap: 200px;
     align-content: center;
     justify-content: center;
   }
 }
+
 @media (min-width: 1023px) {
   .menu2 {
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    gap: 70px;
   }
 }
 
