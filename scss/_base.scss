@@ -3,13 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 //font-family: 'Anton', sans-serif;
 //font-family: 'Tilt Prism', cursive;
 //font-family: 'Bebas Neue', sans-serif;
 
 
 
-ul li{
+ul li {
     text-decoration: none;
 }
 
@@ -37,11 +38,12 @@ h1 {
     font-family: 'Tilt Prism', sans-serif;
 }
 
-h2{
+h2 {
     font-family: 'Bebas Neue', sans-serif;
+    text-shadow: 10px 10px 10px $color-principal;
 }
 
-h3{
+h3 {
     font-family: 'Bebas Neue', sans-serif;
 }
 
@@ -83,7 +85,7 @@ a {
 
 }
 
-.principal{
+.principal {
     height: auto;
     justify-content: center;
 }
@@ -97,6 +99,8 @@ body {
 }
 
 .piedepagina {
+    align-items: center;
+    text-align: center;
     display: flex;
     justify-content: space-between;
     background-image: linear-gradient($color-principal, $color-secundario, $color-principal);
@@ -133,7 +137,7 @@ body {
 }
 
 .copas {
-    width: 50px;
+    width: 90px;
 }
 
 .titulo {
