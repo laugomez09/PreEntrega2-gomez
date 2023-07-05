@@ -283,7 +283,7 @@ button {
 }
 
 .socio {
-  background-image: url(../img/el-taladro\(3\).jpg);
+  background-image: url(../img2/el-taladro\(3\)\ \(1\).jpg);
   width: 500px;
   height: 400px;
   text-align: center;
@@ -326,6 +326,7 @@ button {
     text-align: center;
     grid-column: span 3;
     justify-content: center;
+    background-image: url(../img2/el\ taladro.jpg);
   }
   .atencion {
     grid-column: span 1;
