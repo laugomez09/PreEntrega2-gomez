@@ -341,3 +341,90 @@ footer div {
     justify-content: space-between;
 
 }
+
+
+/*FONDO EN SOCIOS*/
+
+
+.menu5 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  
+  button {
+    background-color: green;
+  }
+  
+  .titulo-socio {
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+  .socio {
+    background-image: url(../img/el-taladro\(3\)\ \(1\).jpg);
+    width: 300px;
+    height: 225px;
+    text-align: center;
+    grid-column: span 2;
+    justify-self: center;
+  }
+  
+  .atencion {
+    text-align: center;
+    grid-column: span 2;
+    justify-self: center;
+  }
+  
+  @media (min-width: 670px) {
+    .menu5 {
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      display: grid;
+      grid-template-columns: 300px 300px;
+      grid-template-rows: repeat(2, auto) 300px;
+      gap: 30px;
+    }
+    .socio{
+      width: 533px;
+    height: 400px;
+      background-image: url(../img/el\ taladro\ \(1\).jpg);
+    }
+  }
+  @media (min-width: 1018px) {
+    .menu5 {
+      justify-content: center;
+      text-align: center;
+      display: grid;
+      grid-template-columns: repeat(3, 300px);
+      grid-template-rows: auto 300px;
+      gap: 30px;
+    }
+    .socio {
+      width: 800px;
+      height: 600px;
+      text-align: center;
+      grid-column: span 3;
+      justify-content: center;
+      background-image: url(../img/el\ taladro.jpg);
+    }
+    .atencion {
+      grid-column: span 1;
+      text-align: center;
+      justify-self: center;
+    }
+    .beneficios {
+      grid-column: span 1;
+    }
+    .categorias {
+      grid-column: span 1;
+    }
+  }
+  

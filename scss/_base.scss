@@ -20,7 +20,6 @@ $color-titulos: yellow;
 
 
 .encabezado {
-    background-color: $color-principal;
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -36,6 +35,10 @@ h1 {
     text-align: left;
     justify-content: center;
     font-family: 'Tilt Prism', sans-serif;
+}
+
+.tituloPrincipal {
+    color: black;
 }
 
 h2 {
@@ -109,31 +112,55 @@ body {
 .youtube {
     width: 50px;
     border-radius: 90%;
+
+    &:hover {
+        transform: scale(1.5);
+    }
 }
 
 .twitter {
     width: 50px;
     border-radius: 80%;
+
+    &:hover {
+        transform: scale(1.5);
+    }
 }
 
 .twich {
     width: 50px;
     border-radius: 80%;
+
+    &:hover {
+        transform: scale(1.5);
+    }
 }
 
 .tiktok {
     width: 50px;
     border-radius: 80%;
+
+    &:hover {
+        transform: scale(1.5);
+    }
 }
 
 .instagram {
     width: 50px;
     border-radius: 80%;
+
+    &:hover {
+        transform: scale(1.5);
+    }
 }
 
 .Onefootball {
     width: 50px;
     border-radius: 80%;
+
+    //    &:hover {
+    //        transform: scale(0.5);
+    //    }
 }
 
 .copas {

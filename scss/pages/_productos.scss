@@ -20,6 +20,11 @@
         align-content: center;
         justify-content: center;
     }
+    .productos{
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
 }
 
 @media(min-width:1023px) {
